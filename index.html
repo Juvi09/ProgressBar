@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer /> 
     <title>Document</title>
 </head>
 <body>
@@ -31,18 +32,6 @@
 
   </div>
 
-  <script>
-    let number = document.getElementById("number");
-    let counter = 0;
-    setInterval(() => {
-      if (counter == 65) {
-        clearInterval();
-      } else {
-        counter += 1;
-        number.innerHTML = counter + "%";
-      }
-      
-    }, 30);
-  </script>
+  
 </body>
 </html>
